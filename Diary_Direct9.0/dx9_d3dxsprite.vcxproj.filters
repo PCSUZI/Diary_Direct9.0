@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5f04a85d-16ce-43af-ae0f-8abc9c612659}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6975d31f-e2bf-4f72-8922-da3190bcb40e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Class Files">
+      <UniqueIdentifier>{d8928afb-374a-4151-9495-f7f8dfbcec33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{2ff0a06f-cf2e-4495-a403-3fa506f7d24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\BACKGROUND">
+      <UniqueIdentifier>{e2cc2b91-4ee5-42f8-b1e1-8f863b90beec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Game1">
+      <UniqueIdentifier>{b1992c62-5716-48db-b4ca-d2bb13d8ed73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Game1\OBJECT">
+      <UniqueIdentifier>{e2dbf140-c58f-4cc2-9d08-0b62a3d73127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Game2">
+      <UniqueIdentifier>{e39ebf56-23e5-407e-b8f0-21ad35acfd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Game2\Object">
+      <UniqueIdentifier>{65caee51-48aa-4bb8-893c-8b229f609e1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dx9_d3dxsprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameIntro.cpp">
+      <Filter>Class Files\BACKGROUND</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>Class Files\BACKGROUND</Filter>
+    </ClCompile>
+    <ClCompile Include="MySprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fairy.cpp">
+      <Filter>Class Files\Game1\OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseFollow.cpp">
+      <Filter>Class Files\Game1</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Study.cpp">
+      <Filter>Class Files\Game2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Suzi.cpp">
+      <Filter>Class Files\Game2\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="codesampler.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dx9_d3dxsprite.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDraw.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRect.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameIntro.h">
+      <Filter>Class Files\BACKGROUND</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>Class Files\BACKGROUND</Filter>
+    </ClInclude>
+    <ClInclude Include="MySprite.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fairy.h">
+      <Filter>Class Files\Game1\OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseFollow.h">
+      <Filter>Class Files\Game1</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Study.h">
+      <Filter>Class Files\Game2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Suzi.h">
+      <Filter>Class Files\Game2\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
