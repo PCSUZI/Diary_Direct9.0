@@ -3,7 +3,7 @@
 **개발:** C++, DirectX9.0, Win32
 **업무포지션:** 대학생
 
-![Untitled](readmeIMG.png)
+![Untitled](readmeIMG.PNG)
 
 ## 👩‍🏫PROJECT 소개
 
